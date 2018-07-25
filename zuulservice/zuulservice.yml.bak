@@ -3,7 +3,7 @@ zuul:
   prefix:  /api
   routes:
     organizationservice: 
-      path: /v1/organization/**
+      path: /v1/organizations/**
       serviceId: organizationservice
       strip-prefix: false
     licensingservice:
