@@ -23,3 +23,6 @@ zuul:
 #licensingservice.ribbon.ReadTimeout: 2
 signing:
   key: "345345fsdfsf5345"
+ribbon:
+  ConnectTimeout: 10000
+  ReadTimeout: 10000
